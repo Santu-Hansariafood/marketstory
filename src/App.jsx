@@ -22,6 +22,17 @@ import MoistureStressChart1 from "./pages/MoistureStressChart/MoistureStressChar
 import MoistureStressChart2 from "./pages/MoistureStressChart/MoistureStressChart2";
 import RabiCornYield from "./pages/RabiCornYield/RabiCornYield";
 import CornProductionEstimate from "./pages/CornProductionEstimate/CornProductionEstimate";
+import DemandUpdate from "./pages/DemandUpdate/DemandUpdate";
+import EthanolBlending from "./pages/EthanolBlending/EthanolBlending";
+import EthanolBlending1 from "./pages/EthanolBlending/EthanolBlending1";
+import EthanolBlending2 from "./pages/EthanolBlending/EthanolBlending2";
+import EthanolBlending3 from "./pages/EthanolBlending/EthanolBlending3";
+import EthanolBlending4 from "./pages/EthanolBlending/EthanolBlending4";
+import RegionalEthanolDemand from "./pages/EthanolBlending/RegionalEthanolDemand";
+import EthanolCapacityChart from "./pages/EthanolBlending/EthanolCapacityChart";
+import CornStarchExportChart from "./pages/EthanolBlending/CornStarchExportChart";
+import CornStarchExportChart1 from "./pages/EthanolBlending/CornStarchExportChart1";
+import Dicelamer from "./pages/Dicelamer/Dicelamer";
 
 const App = () => {
   return (
@@ -104,6 +115,21 @@ const App = () => {
         </section>
         <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
           <CornProductionEstimate/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <DemandUpdate/>
+          <EthanolBlending/>
+          <EthanolBlending1/>
+          <EthanolBlending2/>
+          <EthanolBlending3/>
+          <EthanolBlending4/>
+          <RegionalEthanolDemand/>
+          <EthanolCapacityChart/>
+          <CornStarchExportChart/>
+          <CornStarchExportChart1/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <Dicelamer/>
         </section>
         
         

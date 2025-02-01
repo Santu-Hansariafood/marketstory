@@ -4,6 +4,7 @@ const Page51 = () => {
       commodity: "Paddy",
       acres2023: 4.33,
       acres2024: 4.08,
+      acres2025:4.20,
       change: 0.12,
       percentChange: "3.06%",
       share2023: "5.78%",
@@ -13,6 +14,7 @@ const Page51 = () => {
       commodity: "Wheat",
       acres2023: 31.4,
       acres2024: 31.83,
+      acres2025:32.63,
       change: 0.8,
       percentChange: "2.51%",
       share2023: "45.11%",
@@ -22,6 +24,7 @@ const Page51 = () => {
       commodity: "Corn",
       acres2023: 2.26,
       acres2024: 2.31,
+      acres2025: 2.50 ,
       change: 0.19,
       percentChange: "8.43%",
       share2023: "3.27%",
@@ -31,6 +34,7 @@ const Page51 = () => {
       commodity: "Barley",
       acres2023: 0.63,
       acres2024: 0.55,
+      acres2025: 0.54,
       change: -0.01,
       percentChange: "-2.59%",
       share2023: "0.78%",
@@ -40,6 +44,7 @@ const Page51 = () => {
       commodity: "Gram",
       acres2023: 10.47,
       acres2024: 9.59,
+      acres2025: 9.83,
       change: 0.24,
       percentChange: "2.49%",
       share2023: "13.58%",
@@ -49,6 +54,7 @@ const Page51 = () => {
       commodity: "Mustard/Canola",
       acres2023: 8.85,
       acres2024: 9.18,
+      acres2025: 8.87,
       change: -0.31,
       percentChange: "-3.37%",
       share2023: "13.01%",
@@ -70,6 +76,9 @@ const Page51 = () => {
             </th>
             <th className="border border-gray-200 px-4 py-2">
               2023-24 (Million Ha)
+            </th>
+            <th className="border border-gray-200 px-4 py-2">
+              2024-25 *(Million Ha)
             </th>
             <th className="border border-gray-200 px-4 py-2">
               Change (Million Ha)
@@ -99,6 +108,9 @@ const Page51 = () => {
               </td>
               <td className="border border-gray-200 px-4 py-2 whitespace-nowrap">
                 {row.acres2024}
+              </td>
+              <td className="border border-gray-200 px-4 py-2 whitespace-nowrap">
+                {row.acres2025}
               </td>
               <td
                 className={`border border-gray-200 px-4 py-2 whitespace-nowrap ${
