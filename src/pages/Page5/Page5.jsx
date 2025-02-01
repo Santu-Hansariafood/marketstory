@@ -1,4 +1,3 @@
-import React from "react";
 import {
   Chart as ChartJS,
   BarElement,
@@ -76,7 +75,6 @@ const Page5 = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen p-6 flex flex-col gap-8">
-      {/* Header Section */}
       <div className="bg-white rounded-lg shadow-md p-4 text-center">
         <h1 className="text-2xl font-bold text-gray-800">
           Rabi Acreage Trends Align with Nov'24 Report Projections
@@ -86,10 +84,7 @@ const Page5 = () => {
           2023-24.
         </p>
       </div>
-
-      {/* Content Section */}
       <div className="flex flex-col lg:flex-row gap-6">
-        {/* Bar Graph */}
         <div className="bg-white rounded-lg shadow-md p-6 w-full lg:w-2/3">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
             Key Crops Rabi Sowing Progress as of 30th Dec
@@ -102,8 +97,6 @@ const Page5 = () => {
             }}
           />
         </div>
-
-        {/* Line Graph */}
         <div className="bg-white rounded-lg shadow-md p-6 w-full lg:w-1/3">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
             % Change in Acreage
