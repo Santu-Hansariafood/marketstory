@@ -21,7 +21,6 @@ ChartJS.register(
 );
 
 const Page5 = () => {
-  // Graph Data
   const data = {
     labels: ["Wheat", "Gram", "Mustard", "Corn", "Paddy", "Barley"],
     datasets: [
@@ -77,17 +76,16 @@ const Page5 = () => {
     <div className="bg-gray-50 min-h-screen p-6 flex flex-col gap-8">
       <div className="bg-white rounded-lg shadow-md p-4 text-center">
         <h1 className="text-2xl font-bold text-gray-800">
-          Rabi Acreage Trends Align with Nov'24 Report Projections
+        Winter Sown Area Patterns Match November 2024 Report Estimates.
         </h1>
         <p className="text-gray-600 mt-2">
-          Key insights into Rabi sowing progress and acreage comparisons for
-          2023-24.
+        Key observations on the progress of Winter sowing and acreage comparisons for the 2023-24 season.
         </p>
       </div>
       <div className="flex flex-col lg:flex-row gap-6">
         <div className="bg-white rounded-lg shadow-md p-6 w-full lg:w-2/3">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Key Crops Rabi Sowing Progress as of 30th Dec
+          Status of Key Rabi Crop Sowing as of December 30th.
           </h2>
           <Bar
             data={data}

@@ -10,12 +10,14 @@ const Welcome = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-green-400 via-yellow-300 to-green-500 opacity-90"></div>
       <div className="relative z-10 p-6 bg-white bg-opacity-90 rounded-xl shadow-lg text-center">
         <h1 className="text-4xl font-extrabold text-green-700 mb-4">
-          Welcome to Hansaria Food Private Limited
+          Welcome to Hansaria Food Private Limited Market Resarch
         </h1>
         <h2 className="text-2xl font-semibold text-yellow-600 mb-6">
-          CORN, CASTOR, BARLEY PRICE OUTLOOK
+          Maize, Oil Seeds, Grain Price Market Outlook
         </h2>
-        <p className="text-lg text-gray-800 mb-4">&quot;Market Story January &quot;</p>
+        <p className="text-lg text-gray-800 mb-4">
+          &quot;Market Story January &quot;
+        </p>
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-2 text-green-700">
             <FaEnvelope />

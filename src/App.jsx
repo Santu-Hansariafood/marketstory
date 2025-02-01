@@ -1,4 +1,3 @@
-import React from "react";
 import Welcome from "./pages/Welcome/Welcome";
 import Page1 from "./pages/Page1/Page1";
 import Page2 from "./pages/Page2/Page2";
@@ -18,6 +17,11 @@ import RainfallPage from "./pages/RainfallPage/RainfallPage";
 import DrySpellPage from "./pages/DrySpellPage/DrySpellPage";
 import ONDRainfallPage from "./pages/ONDRainfallPage/ONDRainfallPage";
 import RainfallChart from "./pages/RainfallChart/RainfallChart";
+import MoistureStressChart from "./pages/MoistureStressChart/MoistureStressChart";
+import MoistureStressChart1 from "./pages/MoistureStressChart/MoistureStressChart1";
+import MoistureStressChart2 from "./pages/MoistureStressChart/MoistureStressChart2";
+import RabiCornYield from "./pages/RabiCornYield/RabiCornYield";
+import CornProductionEstimate from "./pages/CornProductionEstimate/CornProductionEstimate";
 
 const App = () => {
   return (
@@ -86,6 +90,22 @@ const App = () => {
         <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
           <RainfallChart/>
         </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <MoistureStressChart/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <MoistureStressChart1/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <MoistureStressChart2/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <RabiCornYield/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <CornProductionEstimate/>
+        </section>
+        
         
       </div>
       

@@ -40,7 +40,7 @@ const Page4 = () => {
       state: "Karnataka",
       arrival2023: "2.61%",
       arrival2024: "14.32%",
-      price2023: 2286,
+      price2023: 2268,
       price2024: 2509,
       percentChange: "10.63%",
     },
@@ -105,7 +105,7 @@ const Page4 = () => {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold text-green-800 mb-4 text-center">
-        Corn Arrivals 2024: Fueled by Larger Harvests and Improved Prices
+      Maize Influx 2024: Driven by Increased Yields and Better Market Rates
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
         <div className="order-2 md:order-1">
@@ -162,8 +162,7 @@ const Page4 = () => {
         </div>
       </div>
       <p className="mt-8 text-green-800 text-center">
-        • Driven by improved price realizations for farmers in 2024, arrivals
-        across major origins witnessed a twofold increase compared to 2023.
+        • Boosted by higher price gains for farmers in 2024, arrivals from key regions doubled compared to 2023.
       </p>
     </div>
   );

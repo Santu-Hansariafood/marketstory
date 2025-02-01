@@ -1,5 +1,4 @@
-import React from "react";
-import { Bar, Line } from "react-chartjs-2";
+import { Bar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
   CategoryScale,
@@ -32,7 +31,7 @@ const Page8 = () => {
       },
       {
         label: "2024",
-        data: [0.69, 0.10, 0.51, 0.13, 0.41],
+        data: [0.69, 0.1, 0.51, 0.13, 0.41],
         backgroundColor: "#22c55e",
       },
       {
@@ -46,17 +45,11 @@ const Page8 = () => {
   };
 
   const acreageData = {
-    labels: [
-      "2021-22",
-      "2022-23",
-      "2023-24",
-      "2024-25 Dec",
-      "2024-25 Jan",
-    ],
+    labels: ["2021-22", "2022-23", "2023-24", "2024-25 Dec", "2024-25 Jan"],
     datasets: [
       {
         label: "Acreage (Million Ha)",
-        data: [2.17, 2.26, 2.31, 2.50, 2.61],
+        data: [2.17, 2.26, 2.31, 2.5, 2.61],
         backgroundColor: "#3b82f6",
       },
       {
@@ -79,13 +72,12 @@ const Page8 = () => {
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
       <h1 className="text-3xl font-bold text-gray-800 text-center mb-8">
-        Indian Rabi Corn Insights
+        Indian Winter Maize Insights
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {/* Card 1 */}
         <div className="bg-white shadow-lg rounded-2xl p-6">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Indian Rabi Corn Sowing Progress
+            Indian Winter Maize Sowing Progress
           </h2>
           <Bar
             data={sowingData}
@@ -98,17 +90,26 @@ const Page8 = () => {
               },
             }}
           />
-          <ul className="mt-4 text-gray-700 list-disc list-inside">
-            <li>Corn sowing for 2024-25 increased significantly, with some areas nearly doubling acreage.</li>
-            <li>The growth trend shows both marginal and substantial improvements across regions.</li>
-            <li>Bihar saw a slower planting pace this year due to delays in the Kharif harvest.</li>
+          <ul>
+            <li>
+              Maize planting for the 2024-25 season saw a notable rise, with
+              certain regions almost doubling their cultivated area.
+            </li>
+            <li>
+              The expansion trend reflects both minor and significant progress
+              across different areas.
+            </li>
+            <li>
+              Bihar experienced a slower planting rate this year, attributed to
+              delays in the Summer crop harvest.
+            </li>
           </ul>
         </div>
 
         {/* Card 2 */}
         <div className="bg-white shadow-lg rounded-2xl p-6">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Corn Acreage Expectation for Rabi 2024-25
+            Maize Acreage Expectation for Winter 2024-25
           </h2>
           <Bar
             data={acreageData}
@@ -122,9 +123,18 @@ const Page8 = () => {
             }}
           />
           <ul className="mt-4 text-gray-700 list-disc list-inside">
-            <li>Acreage for 2024-25 is estimated to rise from 2.31 million Ha (Dec 2024) to 2.61 million Ha (Jan 2025).</li>
-            <li>Growth is driven by a 157% increase in seed sales, indicating strong farmer intentions.</li>
-            <li>Favorable agronomic conditions further support higher sowing activity.</li>
+            <li>
+              Acreage for 2024-25 is estimated to rise from 2.31 million Ha (Dec
+              2024) to 2.61 million Ha (Jan 2025).
+            </li>
+            <li>
+              Growth is driven by a 157% increase in seed sales, indicating
+              strong farmer intentions.
+            </li>
+            <li>
+              Favorable agronomic conditions further support higher sowing
+              activity.
+            </li>
           </ul>
         </div>
       </div>

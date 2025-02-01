@@ -1,4 +1,3 @@
-import React from "react";
 import { Bar } from "react-chartjs-2";
 import {
   Chart as ChartJS,
@@ -99,13 +98,13 @@ const Page9 = () => {
   return (
     <div className="p-6 bg-gray-50 min-h-screen">
       <h1 className="text-3xl font-bold text-gray-800 text-center mb-8">
-        Indian Rabi Corn Insights
+        Indian Winter Maize Insights
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Card 1 */}
         <div className="bg-white shadow-lg rounded-2xl p-6">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Indian Rabi Corn Sowing Progress
+            Indian Winter Maize Sowing Progress
           </h2>
           <Bar
             data={sowingData}
@@ -119,7 +118,7 @@ const Page9 = () => {
             }}
           />
           <ul className="mt-4 text-gray-700 list-disc list-inside">
-            <li>Corn sowing for 2024-25 increased significantly, with some areas nearly doubling acreage.</li>
+            <li>Maize sowing for 2024-25 increased significantly, with some areas nearly doubling acreage.</li>
             <li>The growth trend shows both marginal and substantial improvements across regions.</li>
             <li>Bihar saw a slower planting pace this year due to delays in the Kharif harvest.</li>
           </ul>
@@ -128,7 +127,7 @@ const Page9 = () => {
         {/* Card 2 */}
         <div className="bg-white shadow-lg rounded-2xl p-6">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">
-            Corn Acreage Expectation for Rabi 2024-25
+            Maize Acreage Expectation for Winter 2024-25
           </h2>
           <Bar
             data={acreageData}
@@ -151,7 +150,7 @@ const Page9 = () => {
         {/* Card 3 */}
         <div className="bg-white shadow-lg rounded-2xl p-6 col-span-1 md:col-span-2">
           <h2 className="text-xl font-semibold text-gray-800 mb-4 text-center">
-            Acreage Share Likely to Go Up in Southern India & Central India in 2024-25
+            Acreage Share Likely to Go Up in South India & Central India in 2024-25
           </h2>
           <Bar
             data={acreageShareData}
@@ -166,10 +165,10 @@ const Page9 = () => {
           />
           <ul className="mt-4 text-gray-700 list-disc list-inside">
             <li>
-              In 2024-25, Southern and Central India share in Rabi acreage might go up, bringing the overall contribution of Bihar slightly lower.
+              In 2024-25, Southern and Central India share in Winter acreage might go up, bringing the overall contribution of Bihar slightly lower.
             </li>
             <li>
-              Bihar, West Bengal, Karnataka, and Tamil Nadu are not dependent on Kharif rainfall and are mostly driven by attractive prices as the corn in these states is grown naturally in irrigated conditions.
+              Bihar, West Bengal, Karnataka, and Tamil Nadu are not dependent on Kharif rainfall and are mostly driven by attractive prices as the Maize in these states is grown naturally in irrigated conditions.
             </li>
             <li>
               Andhra Pradesh, Telangana, and Maharashtra are dependent on Kharif rainfall as the crop is undertaken in rainfed areas.

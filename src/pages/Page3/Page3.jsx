@@ -95,7 +95,7 @@ const Page3 = () => {
   return (
     <div className="p-6 bg-green-50 h-[100vh] flex flex-col">
       <h1 className="text-3xl font-bold text-green-800 mb-6 text-center">
-        Indian Corn Price Review
+        Indian Market Maize Price Review
       </h1>
       <div className="overflow-x-auto flex-1">
         <table className="table-auto w-full border-collapse border border-green-400">
@@ -104,13 +104,13 @@ const Page3 = () => {
               <th className="border border-green-400 p-3">STATE</th>
               <th className="border border-green-400 p-3">MARKET</th>
               <th className="border border-green-400 p-3">07-11-2024</th>
-              <th className="border border-green-400 p-3">12-10-2024</th>
+              <th className="border border-green-400 p-3">10-12-2024</th>
               <th className="border border-green-400 p-3">06-01-2025</th>
               <th className="border border-green-400 p-3">
-                Change in Price from Nov 2024 (INR per Qtl)
+                Change in Price from Nov 2024 (INR per Qtl) (JAN - NOV)
               </th>
               <th className="border border-green-400 p-3">
-                Change in Price from Dec 2024 (INR per Qtl)
+                Change in Price from Dec 2024 (INR per Qtl) (JAN - DEC)
               </th>
             </tr>
           </thead>
@@ -147,9 +147,7 @@ const Page3 = () => {
         </table>
       </div>
       <p className="mt-6 text-green-800 text-center">
-        • The commencement of the corn harvest in Tamil Nadu has exerted
-        downward pressure on local prices, while corn prices in other regions
-        have remained steady to positive since November 2024.
+        • The start of the corn harvest in Tamil Nadu has put downward pressure on local prices, while corn prices in other regions have stayed stable or increased since November 2024.
       </p>
     </div>
   );

@@ -8,7 +8,7 @@ const Page2 = () => {
     >
       <div className="absolute inset-0 bg-black bg-opacity-40"></div>
       <h1 className="relative z-10 text-4xl md:text-6xl font-extrabold p-6 rounded-lg bg-gradient-to-r from-yellow-400 via-red-500 to-purple-600 text-transparent bg-clip-text">
-        Indian Corn Supply Dynamics - 2024-25
+        Indian Maize Supply Dynamics - 2024-25
       </h1>
     </div>
   );

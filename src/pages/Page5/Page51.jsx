@@ -1,5 +1,3 @@
-import React from "react";
-
 const Page51 = () => {
   const tableData = [
     {
@@ -53,15 +51,15 @@ const Page51 = () => {
       acres2024: 9.18,
       change: -0.31,
       percentChange: "-3.37%",
-      share2023: "12.40%",
-      share2024: "12.04%",
+      share2023: "13.01%",
+      share2024: "12.40%",
     },
   ];
 
   return (
     <div className="bg-white rounded-lg shadow-md p-6 overflow-x-auto text-green-500">
       <h2 className="text-2xl font-semibold text-gray-800 mb-4 text-center">
-        Rabi Acreage Projections
+        Winter Acreage Projections
       </h2>
       <table className="table-auto w-full border-collapse border border-gray-200 text-sm">
         <thead className="bg-gray-100">

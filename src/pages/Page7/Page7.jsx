@@ -1,5 +1,3 @@
-
-import React from "react";
 import Card from "../../common/Card/Card";
 import CardHeader from "../../common/CardHeader/CardHeader";
 import CardTitle from "../../common/CardTitle/CardTitle";
@@ -71,12 +69,12 @@ const Page7 = () => {
     <div className="flex flex-col items-center bg-gray-100 min-h-screen p-4">
       <Card className="flex-grow w-full max-w-6xl">
         <CardHeader>
-          <CardTitle>Indian Rabi Corn Sowing Progress</CardTitle>
+          <CardTitle>Indian Winter Maize Sowing Progress</CardTitle>
         </CardHeader>
         <CardContent>
           <BarChart data={cornProgressData} options={cornOptions} />
         </CardContent>
-        <CardFooter text="As of 30th December, Rabi corn acreage has increased by 8% compared to the previous year, aligning with the projections outlined in the November 2024 report." />
+        <CardFooter text="By December 30th, Winter Maize acreage has risen by 8% from the previous year, in accordance with the projections specified in the November 2024 report." />
       </Card>
     </div>
   );

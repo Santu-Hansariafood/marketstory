@@ -1,4 +1,3 @@
-import React from "react";
 import Card from "../../common/Card/Card";
 import CardHeader from "../../common/CardHeader/CardHeader";
 import CardTitle from "../../common/CardTitle/CardTitle";
@@ -62,13 +61,13 @@ const Page6 = () => {
       <Card className="flex-grow w-full max-w-6xl">
         <CardHeader>
           <CardTitle>
-            Rabi Acreage Trends Align with Nov'24 Report Projections
+          Winter Acreage Trends Match Projections from the November 2024 Report.          
           </CardTitle>
         </CardHeader>
         <CardContent>
           <BarChart data={chartData} options={options} />
         </CardContent>
-        <CardFooter text="All major commodities are aligned with the Rabi acreage trends projected in the November 2024 report." />
+        <CardFooter text="All key commodities are in line with the Winter acreage trends forecasted in the November 2024 report." />
       </Card>
     </div>
   );
