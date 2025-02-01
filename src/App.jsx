@@ -13,6 +13,11 @@ import Page51 from "./pages/Page5/Page51";
 import Header from "./common/Header/Header";
 import Page10 from "./pages/Page10/Page10";
 import ScrollToTop from "./common/ScrollToTop/ScrollToTop";
+import RabiCorn from "./pages/RabiCorn/RabiCorn";
+import RainfallPage from "./pages/RainfallPage/RainfallPage";
+import DrySpellPage from "./pages/DrySpellPage/DrySpellPage";
+import ONDRainfallPage from "./pages/ONDRainfallPage/ONDRainfallPage";
+import RainfallChart from "./pages/RainfallChart/RainfallChart";
 
 const App = () => {
   return (
@@ -66,6 +71,22 @@ const App = () => {
         <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
           <Page10 />
         </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <RabiCorn/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <RainfallPage/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <DrySpellPage/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <ONDRainfallPage/>
+        </section>
+        <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
+          <RainfallChart/>
+        </section>
+        
       </div>
       
       <ScrollToTop />
