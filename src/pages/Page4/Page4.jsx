@@ -72,12 +72,12 @@ const Page4 = () => {
     ],
     datasets: [
       {
-        label: "2023 Corn Arrivals (Million Ton)",
+        label: "2023 Maize Arrivals (Million Ton)",
         data: [1.61, 0.12, 0.27, 0.3, 0.06],
         backgroundColor: "#D97706",
       },
       {
-        label: "2024 Corn Arrivals (Million Ton)",
+        label: "2024 Maize Arrivals (Million Ton)",
         data: [3.11, 0.67, 0.53, 0.43, 0.12],
         backgroundColor: "#059669",
       },
@@ -92,7 +92,7 @@ const Page4 = () => {
       },
       title: {
         display: true,
-        text: "Indian Corn Arrivals in Million Ton",
+        text: "Indian Maize Arrivals in Million Ton",
       },
     },
     scales: {
@@ -123,10 +123,10 @@ const Page4 = () => {
                   Arrival as % of Production (2024)
                 </th>
                 <th className="border border-gray-300 p-2">
-                  Sep-Dec Corn Price Avg (2023) INR/Qtl
+                  Sep-Dec Maize Price Avg (2023) INR/Qtl
                 </th>
                 <th className="border border-gray-300 p-2">
-                  Sep-Dec Corn Price Avg (2024) INR/Qtl
+                  Sep-Dec Maize Price Avg (2024) INR/Qtl
                 </th>
                 <th className="border border-gray-300 p-2">
                   % Change in Price

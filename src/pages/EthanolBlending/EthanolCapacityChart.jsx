@@ -28,7 +28,7 @@ const data = {
       backgroundColor: "#3b8c36",
     },
     {
-      label: "Corn Allocation",
+      label: "Maize Allocation",
       data: [1.82, 0.83, 1.2, 0.22, 0.61, 0.16],
       backgroundColor: "#ffd700",
     },

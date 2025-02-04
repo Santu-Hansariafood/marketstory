@@ -186,7 +186,7 @@ const CornStarchExportChart1 = () => {
   return (
     <div className="p-6 bg-gradient-to-b from-green-100 to-yellow-100 rounded-2xl shadow-lg">
       <h1 className="text-2xl font-bold text-green-800 mb-6 text-center">
-        Revised Corn Starch Export Outlook and Seasonal Trends
+        Revised Maize Starch Export Outlook and Seasonal Trends
       </h1>
 
       <div className="mb-8">
@@ -248,7 +248,7 @@ const CornStarchExportChart1 = () => {
       <div className="text-green-900">
         <ul className="list-disc pl-6 space-y-4">
           <li>
-            Indian corn starch exports for 2024-25 are now projected at 7.00 lakh tons, revised downwards by 1 lakh ton from the earlier estimate of 8 lakh tons, reflecting a recalibration of expectations.
+            Indian Maize starch exports for 2024-25 are now projected at 7.00 lakh tons, revised downwards by 1 lakh ton from the earlier estimate of 8 lakh tons, reflecting a recalibration of expectations.
           </li>
           <li>
             Maize starch exports follow a seasonal trend, peaking during April to June, with monthly volumes consistently exceeding 1 lakh tons during this period.

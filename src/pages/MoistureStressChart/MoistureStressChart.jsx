@@ -129,7 +129,7 @@ const MoistureStressChart = () => {
       </div>
       <div className="mt-6 p-4 bg-green-50 border-l-4 border-green-700">
         <p className="text-green-900 font-semibold">
-          • The Root Zone Soil Moisture Stress Index in key corn-growing
+          • The Root Zone Soil Moisture Stress Index in key Maize-growing
           districts of Bihar shows a significant decline in 2024 compared to
           2023, reflecting increased moisture stress across most regions.
         </p>

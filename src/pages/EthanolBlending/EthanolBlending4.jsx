@@ -23,12 +23,12 @@ const EthanolBlending4 = () => {
     labels: ["NDJ 24", "FMA 25", "MJJ 25", "ASO 25"],
     datasets: [
       {
-        label: "Corn Ethanol (Crore Liters)",
+        label: "Maize Ethanol (Crore Liters)",
         data: [0.96, 0.92, 1.3, 1.68],
         backgroundColor: "#0D1B56",
       },
       {
-        label: "Corn Feedstock (Million Tons)",
+        label: "Maize Feedstock (Million Tons)",
         data: [2.4, 2.3, 3.25, 4.2],
         backgroundColor: "#6A1B9A",
       },
@@ -54,7 +54,7 @@ const EthanolBlending4 = () => {
   return (
     <div className="p-6 bg-white rounded-lg shadow-lg">
       <h2 className="text-green-800 font-bold text-2xl mb-4">
-        Corn Based Ethanol Demand Soars in ASO 25
+        Maize Based Ethanol Demand Soars in ASO 25
       </h2>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="bg-gray-100 p-4 rounded-lg shadow">

@@ -147,7 +147,7 @@ const Page3 = () => {
         </table>
       </div>
       <p className="mt-6 text-green-800 text-center">
-        • The start of the corn harvest in Tamil Nadu has put downward pressure on local prices, while corn prices in other regions have stayed stable or increased since November 2024.
+        • The start of the Maize harvest in Tamil Nadu has put downward pressure on local prices, while Maize prices in other regions have stayed stable or increased since November 2024.
       </p>
     </div>
   );

@@ -82,7 +82,7 @@ const ONDRainfallPage = () => {
           <ul className="list-disc list-inside text-green-800">
             <li>
               The OND rainfall in Bihar recorded a significant decline compared
-              to last year, leading to soil moisture stress in key corn-growing
+              to last year, leading to soil moisture stress in key Maize-growing
               districts.
             </li>
             <li>

@@ -67,7 +67,7 @@ const EthanolBlending = () => {
             with a blending rate of 14.6%, nearing the 15% target.
           </li>
           <li>
-            Corn uptake in Ethanol for 2023-24 (Nov-Oct) is estimated to be
+            Maize uptake in Ethanol for 2023-24 (Nov-Oct) is estimated to be
             around 6.75 Million Ton.
           </li>
         </ul>

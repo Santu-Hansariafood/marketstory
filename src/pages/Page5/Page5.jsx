@@ -22,7 +22,7 @@ ChartJS.register(
 
 const Page5 = () => {
   const data = {
-    labels: ["Wheat", "Gram", "Mustard", "Corn", "Paddy", "Barley"],
+    labels: ["Wheat", "Gram", "Mustard", "Maize", "Paddy", "Barley"],
     datasets: [
       {
         label: "2023 (Million Ha)",
@@ -40,7 +40,7 @@ const Page5 = () => {
   };
 
   const lineData = {
-    labels: ["Wheat", "Gram", "Mustard", "Corn", "Paddy", "Barley"],
+    labels: ["Wheat", "Gram", "Mustard", "Maize", "Paddy", "Barley"],
     datasets: [
       {
         label: "% Change",

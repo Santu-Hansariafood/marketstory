@@ -83,14 +83,14 @@ const EthanolBlending2 = () => {
           </h2>
           <ul className="list-disc list-inside mt-2 text-green-800 space-y-2">
             <li>
-              Corn dominates feedstock allocation in Cycle-1 (Oct'24) and
+              Maize dominates feedstock allocation in Cycle-1 (Oct'24) and
               Cycle-2 (Dec'24) tenders.
             </li>
             <li>
               4.85 billion litres of ethanol production is planned from maize.
             </li>
             <li>
-              Approximately 12.13 million tons of corn will be needed at a
+              Approximately 12.13 million tons of Maize will be needed at a
               recovery rate of 400 litres per ton.
             </li>
           </ul>

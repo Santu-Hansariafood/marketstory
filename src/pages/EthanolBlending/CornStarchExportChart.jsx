@@ -83,7 +83,7 @@ const options = {
     },
     title: {
       display: true,
-      text: "Indian Corn Starch Exports (Lakh Tons)",
+      text: "Indian Maize Starch Exports (Lakh Tons)",
     },
   },
 };
@@ -105,7 +105,7 @@ const CornStarchExportChart = () => {
   return (
     <div className="p-6 bg-gradient-to-b from-green-100 to-yellow-100 rounded-2xl shadow-lg">
       <h1 className="text-2xl font-bold text-green-800 mb-6 text-center">
-        Revised Corn Starch Export Outlook and Seasonal Trends
+        Revised Maize Starch Export Outlook and Seasonal Trends
       </h1>
 
       <div className="mb-8">
@@ -119,7 +119,7 @@ const CornStarchExportChart = () => {
       <div className="text-green-900">
         <ul className="list-disc pl-6 space-y-4">
           <li>
-            Indian corn starch exports for 2024-25 are now projected at 7.00
+            Indian Maize starch exports for 2024-25 are now projected at 7.00
             lakh tons, revised downwards by 1 lakh ton from the earlier estimate
             of 8 lakh tons, reflecting a recalibration of expectations.
           </li>

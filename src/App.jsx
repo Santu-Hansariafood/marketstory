@@ -1,41 +1,50 @@
-import Welcome from "./pages/Welcome/Welcome";
-import Page1 from "./pages/Page1/Page1";
-import Page2 from "./pages/Page2/Page2";
-import Page3 from "./pages/Page3/Page3";
-import Page4 from "./pages/Page4/Page4";
-import Page5 from "./pages/Page5/Page5";
-import Page6 from "./pages/Page6/Page6";
-import Page7 from "./pages/Page7/Page7";
-import Page8 from "./pages/Page8/Page8";
-import Page9 from "./pages/Page9/Page9";
-import Page51 from "./pages/Page5/Page51";
-import Header from "./common/Header/Header";
-import Page10 from "./pages/Page10/Page10";
-import ScrollToTop from "./common/ScrollToTop/ScrollToTop";
-import RabiCorn from "./pages/RabiCorn/RabiCorn";
-import RainfallPage from "./pages/RainfallPage/RainfallPage";
-import DrySpellPage from "./pages/DrySpellPage/DrySpellPage";
-import ONDRainfallPage from "./pages/ONDRainfallPage/ONDRainfallPage";
-import RainfallChart from "./pages/RainfallChart/RainfallChart";
-import MoistureStressChart from "./pages/MoistureStressChart/MoistureStressChart";
-import MoistureStressChart1 from "./pages/MoistureStressChart/MoistureStressChart1";
-import MoistureStressChart2 from "./pages/MoistureStressChart/MoistureStressChart2";
-import RabiCornYield from "./pages/RabiCornYield/RabiCornYield";
-import CornProductionEstimate from "./pages/CornProductionEstimate/CornProductionEstimate";
-import DemandUpdate from "./pages/DemandUpdate/DemandUpdate";
-import EthanolBlending from "./pages/EthanolBlending/EthanolBlending";
-import EthanolBlending1 from "./pages/EthanolBlending/EthanolBlending1";
-import EthanolBlending2 from "./pages/EthanolBlending/EthanolBlending2";
-import EthanolBlending3 from "./pages/EthanolBlending/EthanolBlending3";
-import EthanolBlending4 from "./pages/EthanolBlending/EthanolBlending4";
-import RegionalEthanolDemand from "./pages/EthanolBlending/RegionalEthanolDemand";
-import EthanolCapacityChart from "./pages/EthanolBlending/EthanolCapacityChart";
-import CornStarchExportChart from "./pages/EthanolBlending/CornStarchExportChart";
-import CornStarchExportChart1 from "./pages/EthanolBlending/CornStarchExportChart1";
-import Dicelamer from "./pages/Dicelamer/Dicelamer";
+import { lazy, Suspense } from "react";
+import Loading from "./common/Loading/Loading";
+
+const Welcome = lazy(()=> import("./pages/Welcome/Welcome"));
+const Page1 = lazy(()=> import("./pages/Page1/Page1"));
+const Page2 = lazy(()=> import("./pages/Page2/Page2"));
+const Page3 = lazy(()=> import("./pages/Page3/Page3"));
+const Page4 = lazy(()=> import("./pages/Page4/Page4"));
+const Page5 = lazy(()=> import("./pages/Page5/Page5"));
+const Page6 = lazy(()=> import("./pages/Page6/Page6"));
+const Page7 = lazy(()=> import("./pages/Page7/Page7"));
+const Page8 = lazy(()=> import("./pages/Page8/Page8"));
+const Page9 = lazy(()=> import("./pages/Page9/Page9"));
+const Page51 = lazy(()=> import("./pages/Page5/Page51"));
+const Header = lazy(()=> import("./common/Header/Header"));
+const Page10 = lazy(()=> import("./pages/Page10/Page10"));
+const ScrollToTop = lazy(()=> import("./common/ScrollToTop/ScrollToTop"));
+const RabiCorn = lazy(()=> import("./pages/RabiCorn/RabiCorn"));
+const RainfallPage = lazy(()=> import("./pages/RainfallPage/RainfallPage"));
+const DrySpellPage = lazy(()=> import("./pages/DrySpellPage/DrySpellPage"));
+const ONDRainfallPage = lazy(()=> import("./pages/ONDRainfallPage/ONDRainfallPage"));
+const RainfallChart = lazy(()=> import("./pages/RainfallChart/RainfallChart"));
+const MoistureStressChart = lazy(()=> import("./pages/MoistureStressChart/MoistureStressChart"));
+const MoistureStressChart1 = lazy(()=> import("./pages/MoistureStressChart/MoistureStressChart1"));
+const MoistureStressChart2 = lazy(()=> import("./pages/MoistureStressChart/MoistureStressChart2"));
+const RabiCornYield = lazy(()=> import("./pages/RabiCornYield/RabiCornYield"));
+const CornProductionEstimate = lazy(()=> import("./pages/CornProductionEstimate/CornProductionEstimate"));
+const DemandUpdate = lazy(()=> import("./pages/DemandUpdate/DemandUpdate"));
+const EthanolBlending = lazy(()=> import("./pages/EthanolBlending/EthanolBlending"));
+const EthanolBlending1 = lazy(()=> import("./pages/EthanolBlending/EthanolBlending1"));
+const EthanolBlending2 = lazy(()=> import("./pages/EthanolBlending/EthanolBlending2"));
+const EthanolBlending3 = lazy(()=> import("./pages/EthanolBlending/EthanolBlending3"));
+const EthanolBlending4 = lazy(()=> import("./pages/EthanolBlending/EthanolBlending4"));
+const RegionalEthanolDemand = lazy(()=> import("./pages/EthanolBlending/RegionalEthanolDemand"));
+const EthanolCapacityChart = lazy(()=> import("./pages/EthanolBlending/EthanolCapacityChart"));
+const CornStarchExportChart = lazy(()=> import("./pages/EthanolBlending/CornStarchExportChart"));
+const CornStarchExportChart1 = lazy(()=> import("./pages/EthanolBlending/CornStarchExportChart1"));
+const Dicelamer = lazy(()=> import("./pages/Dicelamer/Dicelamer"));
+const EggExportsDashboard =lazy(()=>import("./pages/EggExportsDashboard/EggExportsDashboard"));
+const EggExportsDashboard1 =lazy(()=>import("./pages/EggExportsDashboard/CornEximChart"));
+const MaizeMarketComponent =lazy(()=>import("./pages/EggExportsDashboard/MaizeMarketComponent"));
+const CornNizamabadForecast =lazy(()=>import("./pages/EggExportsDashboard/CornNizamabadForecast"));
+const GlobalCornBalanceSheet =lazy(()=>import("./pages/EggExportsDashboard/GlobalCornBalanceSheet"));
 
 const App = () => {
   return (
+    <Suspense fallback={<Loading/>}>
     <div className="w-full">
       <Header />
       <div className="">
@@ -127,6 +136,11 @@ const App = () => {
           <EthanolCapacityChart/>
           <CornStarchExportChart/>
           <CornStarchExportChart1/>
+          <EggExportsDashboard/>
+          <EggExportsDashboard1/>
+          <MaizeMarketComponent/>
+          <CornNizamabadForecast/>
+          <GlobalCornBalanceSheet/>
         </section>
         <section className="w-full bg-cover bg-center py-20" style={{ backgroundImage: "url('/path-to-page10-bg.jpg')" }}>
           <Dicelamer/>
@@ -137,6 +151,7 @@ const App = () => {
       
       <ScrollToTop />
     </div>
+    </Suspense>
   );
 };
 

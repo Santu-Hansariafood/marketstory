@@ -20,7 +20,7 @@ const RegionalEthanolDemand = () => {
   return (
     <div className="p-6 bg-white rounded-lg shadow-md">
       <h2 className="text-green-900 font-bold text-2xl mb-4">
-        Regional Ethanol Demand Shifts Impact Corn Supply Dynamics
+        Regional Ethanol Demand Shifts Impact Maize Supply Dynamics
       </h2>
       <div className="bg-gray-100 p-4 rounded-md shadow">
         <Bar data={chartData} />
@@ -29,15 +29,15 @@ const RegionalEthanolDemand = () => {
         <ul className="list-disc list-inside text-green-900">
           <li>
             Ethanol allocation for 2024-25 focuses more on North, East,
-            Southern, and Central India, driving higher corn demand in these
+            Southern, and Central India, driving higher Maize demand in these
             regions.
           </li>
           <li>
-            This increased demand is expected to lower Rabi corn outflows from
+            This increased demand is expected to lower Rabi Maize outflows from
             Bihar to South India.
           </li>
           <li>
-            Improved Rabi corn acreages in Southern India may help balance the
+            Improved Rabi Maize acreages in Southern India may help balance the
             supply, offsetting reduced inflows from Bihar.
           </li>
         </ul>

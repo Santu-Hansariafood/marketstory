@@ -50,7 +50,7 @@ const EthanolBlending3 = () => {
   return (
     <div className="p-6 bg-white rounded-lg shadow-lg border border-gray-200">
       <h2 className="text-2xl font-bold text-green-800 mb-4">
-        Corn's Key Role in 2024-25 (Nov'24 - Oct'25) Ethanol Production
+        Maize's Key Role in 2024-25 (Nov'24 - Oct'25) Ethanol Production
       </h2>
       <div className="h-96">
         <Bar data={data} options={options} />
@@ -58,12 +58,12 @@ const EthanolBlending3 = () => {
       <div className="mt-4 bg-green-50 p-4 rounded-lg">
         <ul className="list-disc pl-5 text-green-700">
           <li>
-            Corn dominates the feedstock allocation, with 4.85 billion liters
+            Maize dominates the feedstock allocation, with 4.85 billion liters
             expected to be produced in 2024-25 ESY, making up52.2% of the total
             feedstock share.
           </li>
           <li>
-            In terms of allocation in total feed stock production, Corn
+            In terms of allocation in total feed stock production, Maize
             diversion for ethanol amounts to30%, which could possibly squeeze
             the supplies as we move into JAS 2025.
           </li>

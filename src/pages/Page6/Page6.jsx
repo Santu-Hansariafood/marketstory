@@ -7,7 +7,7 @@ import BarChart from "../../common/BarChart/BarChart";
 
 const Page6 = () => {
   const chartData = {
-    labels: ["Wheat", "Gram", "Mustard", "Corn", "Paddy", "Barley"],
+    labels: ["Wheat", "Gram", "Mustard", "Maize", "Paddy", "Barley"],
     datasets: [
       {
         label: "2023",

@@ -35,7 +35,7 @@ const RainfallPage = () => {
       },
       title: {
         display: true,
-        text: '2024 Kharif Rainfall Performance (June-Sep) in Key Corn Rabi Origins in India',
+        text: '2024 Kharif Rainfall Performance (June-Sep) in Key Maize Rabi Origins in India',
         font: {
           size: 16,
         },
@@ -89,8 +89,8 @@ const RainfallPage = () => {
         {/* Key Points */}
         <div className="bg-yellow-100 p-6 rounded-lg shadow-md mb-8">
           <ul className="list-disc list-inside text-green-800">
-            <li>Bihar corn acreage to 35 percent of total corn cultivated area.</li>
-            <li>Though Kharif rainfall is higher than last year in Bihar, yet it is below normal by 20 percent, thus affecting soil moisture levels in key corn-growing areas in the state.</li>
+            <li>Bihar Maize acreage to 35 percent of total Maize cultivated area.</li>
+            <li>Though Kharif rainfall is higher than last year in Bihar, yet it is below normal by 20 percent, thus affecting soil moisture levels in key Maize-growing areas in the state.</li>
           </ul>
         </div>
 

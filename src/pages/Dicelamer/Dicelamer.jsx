@@ -1,5 +1,3 @@
-import React from "react";
-
 const Disclaimer = () => {
   return (
     <div className="flex items-center justify-center w-full h-screen bg-green-100 p-6">
