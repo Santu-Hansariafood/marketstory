@@ -48,7 +48,7 @@ const Welcome = () => {
           Maize, Oil Seeds, Grain Price Market Outlook
         </h2>
         <p className="text-lg text-gray-800 mb-4">
-          &quot;Market Story January &quot;
+          &quot;Market Story February &quot;
         </p>
         <div className="flex flex-col items-center gap-4">
           <div className="flex items-center gap-2 text-green-700">
